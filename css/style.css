@@ -1,0 +1,21 @@
+.non-display {
+  display: none;
+}
+
+.display {
+  display: block;
+}
+
+.spring {
+  background-image: url('http://static5.depositphotos.com/1005091/506/v/950/depositphotos_5065548-stock-illustration-spring-meadow-with-daisies.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh
+}
+
+.autumn {
+  background-image: url('http://static5.depositphotos.com/1025794/499/v/450/depositphotos_4998270-stock-illustration-beautiful-autumn-tree-for-your.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh
+}

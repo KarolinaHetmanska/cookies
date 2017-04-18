@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Moje pierwsze cookies :D</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js\jquery-3.2.1.js">
+
+  </script>
+</head>
+
+<body>
+  <section id="empty-cookies">
+    <h2>Write your name</h2>
+    <input id="input-name" type="text" name="" value="">
+    <select id="dropdown-favourite-season" name="">
+      <option value="select">Select</option>
+      <option value="spring">Spring</option>
+      <option value="autumn">Autumn</option>
+    </select>
+    <button type="button" name="button" onclick="setCookie()">save as a cookie</button>
+  </section>
+
+  <section id="notempty-cookies" class="non-display">
+    <h1>Dzień dobry <span id=cookie-name></span></h1>
+  </section>
+  <!-- <button type="button" name="button" onclick="getCookie()">get your cookie</button> -->
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
