@@ -6,16 +6,72 @@
   display: block;
 }
 
-.spring {
-  background-image: url('http://static5.depositphotos.com/1005091/506/v/950/depositphotos_5065548-stock-illustration-spring-meadow-with-daisies.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 3rem;
 }
 
-.autumn {
-  background-image: url('http://static5.depositphotos.com/1025794/499/v/450/depositphotos_4998270-stock-illustration-beautiful-autumn-tree-for-your.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh
+h1 {
+  position: relative;
+  z-index: 1;
+  font-size: 2rem;
+}
+
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid black;
+  width: 25rem;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+input:focus {
+  outline: 0;
+  text-align: center;
+}
+
+h3 {
+  line-height: 3rem;
+  font-size: 1.5rem;
+}
+
+select {
+  font-size: 1.3rem;
+  color: grey;
+  border: none;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+button {
+  margin-left: 2rem;
+  padding: .5rem;
+  border-radius: .3rem;
+  background-color: transparent;
+  border: 1px solid grey;
+}
+
+.wiosna {
+  color: #98f442;
+}
+
+.lato {
+  color: #f4df42;
+}
+
+.jesień {
+  color: #d17b0c;
+}
+
+.zima {
+  color: #96bae0;
+}
+
+#missed-information {
+  color:red;
 }

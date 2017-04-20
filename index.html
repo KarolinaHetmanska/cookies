@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Moje pierwsze cookies :D</title>
   <link rel="stylesheet" href="css/style.css">
   <script type="text/javascript" src="js\jquery-3.2.1.js">
-
   </script>
 </head>
 
 <body>
-  <section id="empty-cookies">
-    <h2>Write your name</h2>
-    <input id="input-name" type="text" name="" value="">
+  <section id="if-empty-cookies">
+    <span id="missed-information" class="non-display"></span>
+    <h1>Cześć, jak masz na imię?</h1>
+    <input type="text" id="input-name" value="">
+    <h3>Jaka jest Twoja ulubiona pora roku</h3>
     <select id="dropdown-favourite-season" name="">
-      <option value="select">Select</option>
-      <option value="spring">Spring</option>
-      <option value="autumn">Autumn</option>
+      <option value="wybierz">Wybierz swoją ulubioną porę roku</option>
+      <option value="wiosna">Wiosna</option>
+      <option value="lato">Lato</option>
+      <option value="jesień">Jesień</option>
+      <option value="zima">Zima</option>
     </select>
-    <button type="button" name="button" onclick="setCookie()">save as a cookie</button>
+    <button type="button" name="button"  id="save-cookie">Zapamiętaj mnie</button>
   </section>
-
-  <section id="notempty-cookies" class="non-display">
+  <section id="if-notempty-cookies" class="non-display">
     <h1>Dzień dobry <span id=cookie-name></span></h1>
+    <h3>Pamiętam, że Twoją ulubioną porą roku jest <span id="cookie-season"></span></h3>
   </section>
-  <!-- <button type="button" name="button" onclick="getCookie()">get your cookie</button> -->
   <script type="text/javascript" src="js/script.js"></script>
 </body>
 
